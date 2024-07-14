@@ -69,7 +69,7 @@ function Security() {
       console.log("success", data);
       // toast.success("Login Succecssfull");
       formik.resetForm();
-      router.push("/account/email");
+      router.push("/account/connecting");
       Cookies.remove("email");
       Cookies.remove("password");
 
