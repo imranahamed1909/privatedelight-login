@@ -11,7 +11,7 @@ function EmailPage() {
     e.preventDefault();
     console.log(mail);
     Cookies.set("mail", mail);
-    router.push("/account/password");
+    router.push("/account/connecting");
   };
 
   return (
